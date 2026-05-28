@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ens_redist"
+version = "0.1.0"
+description = "Model predicting ensemble redistributio"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchvision",
+    "PyYAML",
+ 'numpy',
+ 'tqdm',
+ 'tensorboard>=1.14',
+ 'pandas',
+ 'numpy',
+ 'torch_geometric',
+ 'pathlib'
+]
+
+[tool.setuptools]
+package-dir = {"" = "model"}
+
+[tool.setuptools.packages.find]
+where = ["model"]
