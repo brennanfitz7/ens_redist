@@ -7,6 +7,7 @@ My project investigated the feasibility of predicting how a mutation to a protei
 
 ## Dataset
 ![label_dist](label_dist.jpeg)
+<img src="label_dist.jpeg" alt="label_dist" width="200"/>
 ## Training the model
 ## Results
 
