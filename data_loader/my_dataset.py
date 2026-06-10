@@ -1,4 +1,4 @@
-from format_data import combining_ensembles
+from .format_data import combining_ensembles
 from torch_geometric.data import Dataset
 from pathlib import Path
 

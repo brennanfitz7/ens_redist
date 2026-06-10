@@ -18,7 +18,11 @@ dependencies = [
  'pandas',
  'numpy',
  'torch_geometric',
- 'pathlib'
+ 'pathlib',
+ 'matplotlib',
+ 'os',
+ 'argparse',
+ 'sys'
 ]
 
 [tool.setuptools]
