@@ -25,4 +25,8 @@ dependencies = [
  'sys'
 ]
 
+[tool.setuptools]
+package-dir = {"" = "model"}
 
+[tool.setuptools.packages.find]
+where = ["model"]
