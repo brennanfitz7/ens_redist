@@ -6,6 +6,7 @@
 My project investigated the feasibility of predicting how a mutation to a protein impacts its structural ensemble when given the structures . This is directly related to my doctoral research. Ideally, this project will give me more context for if the features I am looking at in my research are sufficient to predict ensemble redistribution potential. 
 
 ## Dataset
+![label_dist](label_dist.jpeg)
 ## Training the model
 ## Results
 
