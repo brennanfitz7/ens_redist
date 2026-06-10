@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=train_model
+#SBATCH --output=/home/bfitzger/ens_redist/training_outputs/original_training.out
+#SBATCH --error=/home/bfitzger/ens_redist/training_outputs/original_training.err
+#SBATCH --time=03:00:00
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus=1
+#SBATCH --mem=8G
+#SBATCH --partition=gpu
+#SBATCH --account=dsci410_510
+
+cd /home/bfitzger/ens_redist
+
+python train.py -t /home/bfitzger/ens_redist/data/train_data -v /home/bfitzger/ens_redist/data/val_data -o /home/bfitzger/ens_redist/training_outputs/original_trained_model --use_stored_seed
+
